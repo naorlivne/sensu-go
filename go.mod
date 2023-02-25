@@ -94,7 +94,7 @@ require (
 	golang.org/x/crypto v0.0.0-20181203042331-505ab145d0a9
 	golang.org/x/net v0.0.0-20170920234330-b60f3a92103d
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58 // indirect
-	golang.org/x/sys v0.0.0-20181205085412-a5c9d58dba9a
+	golang.org/x/sys v0.1.0
 	golang.org/x/time v0.0.0-20170927054726-6dc17368e09b
 	google.golang.org/genproto v0.0.0-20170918111702-1e559d0a00ee // indirect
 	google.golang.org/grpc v1.13.0
