@@ -4,7 +4,6 @@ go 1.12
 
 require (
 	github.com/AlecAivazis/survey v1.4.1
-	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/NYTimes/gziphandler v0.0.0-20180227021810-5032c8878b9d
 	github.com/StackExchange/wmi v0.0.0-20180725035823-b12b22c5341f // indirect
@@ -17,7 +16,7 @@ require (
 	github.com/coreos/pkg v0.0.0-20160727233714-3ac0863d7acf
 	github.com/dave/jennifer v0.0.0-20171207062344-d8bdbdbee4e1
 	github.com/dgrijalva/jwt-go v3.0.0+incompatible
-	github.com/docker/docker v0.0.0-20180409082103-cbde00b44273
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/dsnet/compress v0.0.0-20170928175515-f41072d47fff // indirect
 	github.com/echlebek/crock v1.0.1
 	github.com/echlebek/timeproxy v1.0.0
@@ -31,12 +30,10 @@ require (
 	github.com/golang/protobuf v1.1.0
 	github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db // indirect
 	github.com/google/btree v0.0.0-20161217183710-316fb6d3f031 // indirect
-	github.com/google/go-cmp v0.3.0 // indirect
 	github.com/google/uuid v0.0.0-20161128191214-064e2069ce9c
 	github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f // indirect
 	github.com/gorilla/mux v1.6.2
 	github.com/gorilla/websocket v1.2.0
-	github.com/gotestyourself/gotestyourself v2.2.0+incompatible // indirect
 	github.com/graph-gophers/dataloader v0.0.0-20180104184831-78139374585c
 	github.com/graphql-go/graphql v0.7.9-0.20190403165646-199d20bbfed7
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
@@ -59,6 +56,7 @@ require (
 	github.com/mholt/archiver v0.0.0-20180816053333-85d3d0b511ea
 	github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747
 	github.com/mitchellh/mapstructure v1.1.2
+	github.com/moby/term v0.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
 	github.com/nwaples/rardecode v0.0.0-20170112110516-f22b7ef81a0a // indirect
@@ -94,7 +92,7 @@ require (
 	golang.org/x/crypto v0.0.0-20181203042331-505ab145d0a9
 	golang.org/x/net v0.0.0-20170920234330-b60f3a92103d
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58 // indirect
-	golang.org/x/sys v0.0.0-20181205085412-a5c9d58dba9a
+	golang.org/x/sys v0.1.0
 	golang.org/x/time v0.0.0-20170927054726-6dc17368e09b
 	google.golang.org/genproto v0.0.0-20170918111702-1e559d0a00ee // indirect
 	google.golang.org/grpc v1.13.0
@@ -102,5 +100,4 @@ require (
 	gopkg.in/h2non/filetype.v1 v1.0.3
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 	gopkg.in/yaml.v2 v2.2.2
-	gotest.tools v2.2.0+incompatible // indirect
 )
